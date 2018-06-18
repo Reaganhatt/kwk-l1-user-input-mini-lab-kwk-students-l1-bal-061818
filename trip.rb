@@ -4,7 +4,7 @@ stay = "Orlando
   puts "I would like to stay in #{stay}"
 stay = gets.chomp.capitalize
 puts "Where would you like to eat?"
-eat = "Chick-fil-a
+eats = "Chick-fil-a
 "
 puts "I would like to eat at #{eats}."
 eats = gets.chomp.capitalize
