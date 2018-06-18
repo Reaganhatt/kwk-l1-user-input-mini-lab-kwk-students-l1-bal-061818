@@ -6,8 +6,8 @@ stay = gets.chomp.capitalize
 puts "Where would you like to eat?"
 eat = "Chick-fil-a
 "
-puts "I would like to eat at #{eat}."
-eat = gets.chomp.capitalize
+puts "I would like to eat at #{eats}."
+eats = gets.chomp.capitalize
 puts "How long will you be staying?"
 nights = "8 nights
 "
