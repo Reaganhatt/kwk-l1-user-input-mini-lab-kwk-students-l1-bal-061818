@@ -1,10 +1,13 @@
 puts "Let's plan your trip! Where would you like to stay?"
-stay = "Orlando"
-stay = gets
-eat = "Chick-fil-a"
-eat = gets
-nights = "8 nights"
-nights = gets
+stay = "Orlando
+  "
+stay = gets.chomp.capitalize
+eat = "Chick-fil-a
+"
+eat = gets.chomp.capitalize
+nights = "8 nights
+"
+nights = gets.chomp
 puts "I would like to stay in #{stay} for #{nights}. I would like to eat at #{eat}."
 
 
