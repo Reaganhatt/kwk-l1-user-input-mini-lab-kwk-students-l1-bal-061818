@@ -1,5 +1,5 @@
 puts "Let's plan your trip! Where would you like to stay?"
-stay = "Orlando
+stay = gets.chomp
   "
   puts "I would like to stay in #{stay}"
 stay = gets.chomp.capitalize
